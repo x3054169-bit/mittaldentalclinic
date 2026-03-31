@@ -5,13 +5,13 @@ const doctors = [
   {
     name: 'Dr. Antush Mittal',
     specialization: 'BDS, MDS - Endodontist & Conservative Dentist',
-    image: 'https://picsum.photos/seed/doctor1/400/500',
+    image: 'https://images.unsplash.com/photo-1667133295315-820bb6481730?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description: 'Expert in Root Canal Treatment and Smile Designing with 12+ years of experience.',
   },
   {
     name: 'Dr. Manali Mittal',
     specialization: 'BDS - Dental Surgeon',
-    image: 'https://picsum.photos/seed/doctor2/400/500',
+    image: 'https://plus.unsplash.com/premium_photo-1672219245010-aaf370e7f2e6?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description: 'Specialist in General Dentistry and Pediatric Dental Care with a gentle approach.',
   },
 ];

@@ -119,10 +119,11 @@ const Hero = () => {
             {/* Main Image Container */}
             <div className="absolute inset-6 rounded-full overflow-hidden shadow-2xl border-8 border-white">
               <img
-                src="https://picsum.photos/seed/dentist-hero/800/800"
+                src="https://images.unsplash.com/photo-1606811842243-af7e16970c1f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Professional Dentist"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                 loading="lazy"
+                referrerPolicy="no-referrer"
               />
             </div>
 

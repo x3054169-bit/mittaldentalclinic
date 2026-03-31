@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Importance of Regular Teeth Cleaning',
     category: 'Oral Hygiene',
     date: 'Mar 15, 2026',
-    image: 'https://picsum.photos/seed/blog1/1200/600',
+    image: 'https://images.unsplash.com/photo-1629909615957-be38d48fbbe6?q=80&w=1466&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     slug: 'blog-teeth-cleaning.html',
     metaDescription: 'Regular teeth cleaning helps prevent cavities, gum disease, and bad breath. Learn why professional dental cleaning is essential.',
     content: `
@@ -54,7 +54,7 @@ Regular dental cleaning is a simple but essential step in maintaining long-term 
     title: 'Root Canal Treatment: Myths vs Reality',
     category: 'Treatments',
     date: 'Mar 10, 2026',
-    image: 'https://picsum.photos/seed/blog2/1200/600',
+    image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     slug: 'blog-root-canal.html',
     metaDescription: 'Is root canal painful? Learn the truth behind common myths and understand how root canal treatment saves your natural teeth.',
     content: `
@@ -94,7 +94,7 @@ Root canal treatment is safe, effective, and much less painful than people think
     title: 'A Guide to Modern Braces and Aligners',
     category: 'Orthodontics',
     date: 'Mar 05, 2026',
-    image: 'https://picsum.photos/seed/blog3/1200/600',
+    image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     slug: 'blog-braces-aligners.html',
     metaDescription: 'Explore different types of braces and aligners. Learn how modern orthodontic treatments help straighten teeth effectively.',
     content: `

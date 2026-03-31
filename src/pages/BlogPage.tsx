@@ -9,10 +9,25 @@ import Footer from '../components/Footer';
 const BlogPage = () => {
   useEffect(() => {
     document.title = 'Dental Blog | Mittal Dental Clinic Indore';
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Latest dental insights and tips from Mittal Dental Clinic Indore. Learn about root canal, braces, teeth cleaning, and more.');
+    
+    // Update Meta Description
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
     }
+    metaDescription.setAttribute('content', 'Latest dental insights and tips from Mittal Dental Clinic Indore. Learn about root canal, braces, teeth cleaning, and more.');
+
+    // Update Meta Keywords
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta');
+      metaKeywords.setAttribute('name', 'keywords');
+      document.head.appendChild(metaKeywords);
+    }
+    metaKeywords.setAttribute('content', 'dentist in Indore, teeth cleaning, root canal, braces, dental blog Indore');
+
     window.scrollTo(0, 0);
   }, []);
 

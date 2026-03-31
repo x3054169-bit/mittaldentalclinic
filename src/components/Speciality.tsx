@@ -63,7 +63,7 @@ const Speciality = () => {
           >
             <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl shadow-slate-200">
               <img
-                src="https://picsum.photos/seed/clinic-interior/800/1000"
+                src="https://images.unsplash.com/photo-1663755781620-b9b8fdbdead5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Clinic Interior"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

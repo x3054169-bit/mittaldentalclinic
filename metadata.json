@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Mittal Dental Clinic, Indore",
+  "description": "Modern dental care in Indore. Specializing in Root Canal, Implants, Braces, and more. Creating brighter smiles for a better tomorrow.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
